@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+  font-family: Lato;
+  background-color: #eee9de;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  text-align: left;
+}
