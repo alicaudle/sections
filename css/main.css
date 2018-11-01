@@ -19,10 +19,17 @@ p {
   text-align: center;
 }
 
-button {
-  text-align: left;
+body {
+  margin: 1.5rem;
+  vertical-align: middle;
 }
 
-button:hover {
+.btn {
+  color: #333;
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn:hover {
   color: #666;
 }
