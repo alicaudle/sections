@@ -2,10 +2,17 @@ html {
   box-sizing: border-box;
   font-family: Lato;
   background-color: #eee9de;
+  max-width: 25em;
+  display: inline-block;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 p {
@@ -14,4 +21,8 @@ p {
 
 button {
   text-align: left;
+}
+
+button:hover {
+  color: #666;
 }
